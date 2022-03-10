@@ -1,5 +1,5 @@
-pac io.github.basiccorruption.dsharp.examples
+package io.github.basiccorruption.dsharp.examples;
 
-pub func start () => {
-    prntln "Hello world!"
+public int start() => {
+    println "Hello world!";
 }

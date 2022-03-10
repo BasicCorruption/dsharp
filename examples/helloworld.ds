@@ -1,0 +1,5 @@
+pac io.github.basiccorruption.dsharp.examples
+
+pub func start () => {
+    prntln "Hello world!"
+}

@@ -9,6 +9,57 @@ _G.COMMAND_TABLE = {
             }
         ]
     }
+    "window": {
+        "desc": "Creates a window",
+        "args": [
+            {
+                "name": "Fullscreen",
+                "type": boolean,
+                "required": true
+            }
+            {
+                "name": "X Size (Scale)",
+                "type": integer,
+                "required": false
+            }
+            {
+                "name": "Y Size (Scale)",
+                "type": integer,
+                "required": false
+            }
+            {
+                "name": "X Size (Offset)",
+                "type": integer,
+                "required": false
+            }
+            {
+                "name": "Y Size (Offset)",
+                "type": integer,
+                "required": false
+            }
+            {
+                "name": "X Position (Scale)",
+                "type": integer,
+                "required": false
+            }
+            {
+                "name": "Y Position (Scale)",
+                "type": integer,
+                "required": false
+            }
+            {
+                "name": "X Position (Offset)",
+                "type": integer,
+                "required": false
+            }
+            {
+                "name": "Y Position (Offset)",
+                "type": integer,
+                "required": false
+            }
+            
+        ]
+    }
 };
 
 _G.FUNCTIONS = {

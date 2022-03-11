@@ -4,7 +4,7 @@ _G.COMMAND_TABLE = {
         "args": [
             {
                 "name": "Text",
-                "type": "String",
+                "type": string,
                 "required": true
             }
         ]
@@ -12,7 +12,13 @@ _G.COMMAND_TABLE = {
 };
 
 _G.FUNCTIONS = {
-    "println": function ( Text : String )
+    "println": function ( Text : string )
         -- body
     end
 }
+
+local Writer = {
+    function write ( Text : string )
+        -- body
+    end
+};

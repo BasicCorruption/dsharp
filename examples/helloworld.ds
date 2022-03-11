@@ -1,5 +1,6 @@
-package io.github.basiccorruption.dsharp.examples;
+@manDataType
 
-public int start() => {
-    println "Hello world!";
+pkg examples
+func start() => {
+  println "Hello!";
 }

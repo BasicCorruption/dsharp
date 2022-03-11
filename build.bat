@@ -1,0 +1,1 @@
+luac -o "out/main.luac" "src/main.lua"
